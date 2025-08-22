@@ -19,7 +19,7 @@ const Hero = () => {
           Putuk Truno Camp Area
         </h1>
 
-        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
+        <p className="text-[16px] font-[400] mt-6 text-gray-30 xl:max-w-[520px]">
           We want to be on each of your journeys seeking the satisfaction of
           seeing the incorruptible beauty of nature. We can help you on an
           adventure around the world in just one app.
@@ -40,9 +40,9 @@ const Hero = () => {
               ))}
           </div>
 
-          <p className="bold-16 lg:bold-20 text-blue-70">
+          <p className="text-[16px] font-[700] lg:bold-20 text-blue-70">
             198k
-            <span className="regular-16 lg:regular-20 ml-2">
+            <span className="text-[16px] font-[400] lg:regular-20 ml-2">
               Excellent Reviews
             </span>
           </p>
@@ -63,22 +63,28 @@ const Hero = () => {
       <div className="relative flex flex-1 items-start">
         <div className="relative z-20 flex w-[268px] flex-col gap-4 rounded-3xl bg-green-90 px-7 py-8">
           <div className="flex flex-col">
-            <div className="flexBetween">
-              <p className="regular-16 text-gray-20">Location</p>
+            <div className="flex items-center justify-between">
+              <p className="text-[16px] font-[400] text-gray-20">Location</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
 
             <p className="bold-20 text-white">Aguas Calientes</p>
           </div>
 
-          <div className="flexBetween">
+          <div className="flex items-center justify-between">
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Distance</p>
+              <p className="text-[16px] font-[400] block text-gray-20">
+                Distance
+              </p>
+
               <p className="bold-20 text-white">173.28 mi</p>
             </div>
 
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Elevation</p>
+              <p className="text-[16px] font-[400] block text-gray-20">
+                Elevation
+              </p>
+
               <p className="bold-20 text-white">2.040 km</p>
             </div>
           </div>
