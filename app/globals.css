@@ -55,7 +55,7 @@ body {
     @apply mx-auto max-w-[1440px];
   }
   .padding-container {
-    @apply px-6 lg:px-20 3xl:px-0;
+    @apply px-3 lg:px-20 3xl:px-0;
   }
 
   .hero-map {
@@ -71,7 +71,7 @@ body {
   }
 
   .get-app {
-    @apply relative flex w-full flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
+    @apply relative flex w-full flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-3 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
   }
 }
 
