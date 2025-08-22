@@ -19,18 +19,18 @@ const CampSite = ({
       className={`w-full h-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}
     >
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10">
-        <div className="flexCenter gap-4">
+        <div className="flex items-center justify-center gap-4">
           <div className="rounded-full bg-green-50 p-4">
             <Image src="/folded-map.svg" alt="map" width={28} height={28} />
           </div>
 
           <div className="flex flex-col gap-1">
-            <h4 className="bold-18 text-white">{title}</h4>
-            <p className="regular-14 text-white">{subtitle}</p>
+            <h4 className="text-[18px] font-[700] text-white">{title}</h4>
+            <p className="text-[14px] font-[400] text-white">{subtitle}</p>
           </div>
         </div>
 
-        <div className="flexCenter gap-6">
+        <div className="flex items-center justify-center gap-6">
           <span className="flex -space-x-4 overflow-hidden">
             {PEOPLE_URL.map((url) => (
               <Image
@@ -70,7 +70,7 @@ const Camp = () => {
         />
       </div>
 
-      <div className="flexEnd mt-10 px-3 lg:-mt-60 lg:mr-6">
+      <div className="flex items-center justify-end mt-10 px-3 lg:-mt-60 lg:mr-6">
         <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
           <h2 className="text-[24px] font-[400] md:text-[32px] md:font-[400] 2xl:text-[64px] 2xl:font-[400] 2xl:leading-[120%] capitalize text-white">
             <strong>Feeling Lost</strong> And Not Knowing The Way?
